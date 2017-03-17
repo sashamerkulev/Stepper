@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Stepper</string>
+    <string name="label_message">Steps</string>
+    <string name="label_button">Clear</string>
+    <string name="no_accelerometer_message">Not available.</string>
+</resources>

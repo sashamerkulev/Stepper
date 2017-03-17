@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Шагомер</string>
+    <string name="label_message">Шаги</string>
+    <string name="label_button">Очистить</string>
+    <string name="no_accelerometer_message">Не доступно.</string>
+</resources>
