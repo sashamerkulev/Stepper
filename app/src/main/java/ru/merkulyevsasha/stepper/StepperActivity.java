@@ -66,13 +66,18 @@ public class StepperActivity extends AppCompatActivity implements SensorEventLis
     @Override
     protected void onStart() {
         super.onStart();
-        mCounter = mSettings.getSteps();;
+        if (mSettings != null) {
+            mCounter = mSettings.getSteps();
+            ;
+        }
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        mSettings.saveSteps(mCounter);
+        if (mSettings != null) {
+            mSettings.saveSteps(mCounter);
+        }
     }
 
     @Override
